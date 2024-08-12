@@ -1,0 +1,2 @@
+module LanguageLookupsHelper
+end

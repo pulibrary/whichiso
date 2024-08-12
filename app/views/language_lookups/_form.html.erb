@@ -1,0 +1,17 @@
+<%= form_with(model: language_lookup) do |form| %>
+  <% if language_lookup.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(language_lookup.errors.count, "error") %> prohibited this language_lookup from being saved:</h2>
+
+      <ul>
+        <% language_lookup.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

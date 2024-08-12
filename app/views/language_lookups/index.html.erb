@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Language lookups</h1>
+
+<div id="language_lookups">
+  <% @language_lookups.each do |language_lookup| %>
+    <%= render language_lookup %>
+    <p>
+      <%= link_to "Show this language lookup", language_lookup %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New language lookup", new_language_lookup_path %>
