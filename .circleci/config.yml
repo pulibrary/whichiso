@@ -19,7 +19,7 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - run:
-          name: "Say hello"
+          name: "Run test suite"
           command: "bundle install; bundle exec rspec"
 
 # Orchestrate jobs using workflows
