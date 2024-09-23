@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @language_lookup %>
+
+<div>
+  <%= link_to "Edit this language lookup", edit_language_lookup_path(@language_lookup) %> |
+  <%= link_to "Back to language lookups", language_lookups_path %>
+
+  <%= button_to "Destroy this language lookup", @language_lookup, method: :delete %>
+</div>

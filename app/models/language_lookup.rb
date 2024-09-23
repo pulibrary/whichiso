@@ -1,0 +1,2 @@
+class LanguageLookup < ApplicationRecord
+end
