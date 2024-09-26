@@ -7,12 +7,12 @@ RSpec.describe Record, type: :model do
   let(:reader) { MARC::XMLReader.new(marcfile) }
   let(:marcxml) { reader.first.to_xml }
   let(:record) { Record.new(marcxml: marcxml) }
+  
   it "can be instantiated" do
     expect(record).to be_instance_of(Record)
   end
-  it "has a marcxml field" do
-    byebug
-    546_field = MARC::XMLReader.new(StringIO.new(record.marcxml))
-    expect(record.marcxml)
+ 
+  it "can extract a 546 field" do
+    expect(record.field546).to eq "In Persian and English. Egyptian Arabic notes and Jurchen definitions."
   end
 end
