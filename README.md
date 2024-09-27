@@ -1,24 +1,15 @@
-# README
+# WhichISO 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A cataloging tool application in use at Princeton University Library for matching ISO 639-3 codes to language names in the 546 field from bulk MARC records.
 
-Things you may want to cover:
+## Initial Setup
 
-* Ruby version
+Clone this repository following github's instructions provided in the `Code` dropdown on the main page of this repo.
 
-* System dependencies
+Install bundled dependencies:
 
-* Configuration
+```$ asdf install```
 
-* Database creation
+```$ bundle install```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```$ yarn install```
