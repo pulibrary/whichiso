@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" ?><marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:record><marc:leader>00342nam a2200109Ki 4500</marc:leader>
-<marc:controlfield tag="005">20211013150708.5</marc:controlfield>
-<marc:controlfield tag="006">m     o  d |      </marc:controlfield><marc:controlfield tag="007">cr |n|||||||||</marc:controlfield><marc:controlfield tag="008">210830t20212021gw     fo     000 0 eng d</marc:controlfield><marc:controlfield tag="001">99125407331806421</marc:controlfield><marc:datafield tag="245" ind1="1" ind2="0"><marc:subfield code="a">100 Years of Identity Crisis :</marc:subfield><marc:subfield code="b">Culture War Over Socialisation /</marc:subfield><marc:subfield code="c">Frank Furedi.</marc:subfield></marc:datafield><marc:datafield tag="546" ind1=" " ind2=" "><marc:subfield code="a">In English translated from Bembe.</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>00342nam a2200109Ki 4500</marc:leader>
+        <marc:controlfield tag="005">20211013150708.5</marc:controlfield>
+        <marc:controlfield tag="006">m     o  d |      </marc:controlfield>
+        <marc:controlfield tag="007">cr |n|||||||||</marc:controlfield>
+        <marc:controlfield tag="008">210830t20212021gw     fo     000 0 eng d</marc:controlfield>
+        <marc:controlfield tag="001">99125407331806421</marc:controlfield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">100 Years of Identity Crisis :</marc:subfield>
+            <marc:subfield code="b">Culture War Over Socialisation /</marc:subfield>
+            <marc:subfield code="c">Frank Furedi.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="546" ind1=" " ind2=" ">
+            <marc:subfield code="a">In English translated from Bembe.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
 </marc:collection>

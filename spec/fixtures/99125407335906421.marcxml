@@ -1,5 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" ?><marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:record><marc:leader>00402nam a2200097 i 4500</marc:leader>
-<marc:controlfield tag="005">20221219225901.0</marc:controlfield>
-<marc:controlfield tag="008">210611t20212021qucab         000 p fre  </marc:controlfield><marc:controlfield tag="001">99125407335906421</marc:controlfield><marc:datafield tag="041" ind1="1" ind2=" "><marc:subfield code="a">fre</marc:subfield><marc:subfield code="a">alg</marc:subfield><marc:subfield code="h">fre</marc:subfield><marc:subfield code="h">alg</marc:subfield></marc:datafield><marc:datafield tag="245" ind1="0" ind2="0"><marc:subfield code="a">Nin auass =</marc:subfield><marc:subfield code="b">Moi l'enfant : poèmes de la jeunesse innue /</marc:subfield><marc:subfield code="c">semés et recueillis par Joséphine Bacon et Laure Morali ; illustrés par Lydia Mestokosho-Paradis.</marc:subfield></marc:datafield><marc:datafield tag="546" ind1=" " ind2=" "><marc:subfield code="a">Texts in French and Innu-Aimun.</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>00402nam a2200097 i 4500</marc:leader>
+        <marc:controlfield tag="005">20221219225901.0</marc:controlfield>
+        <marc:controlfield tag="008">210611t20212021qucab         000 p fre  </marc:controlfield>
+        <marc:controlfield tag="001">99125407335906421</marc:controlfield>
+        <marc:datafield tag="041" ind1="1" ind2=" ">
+            <marc:subfield code="a">fre</marc:subfield>
+            <marc:subfield code="a">alg</marc:subfield>
+            <marc:subfield code="h">fre</marc:subfield>
+            <marc:subfield code="h">alg</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="0" ind2="0">
+            <marc:subfield code="a">Nin auass =</marc:subfield>
+            <marc:subfield code="b">Moi l'enfant : poèmes de la jeunesse innue /</marc:subfield>
+            <marc:subfield code="c">semés et recueillis par Joséphine Bacon et Laure Morali ; illustrés par Lydia Mestokosho-Paradis.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="546" ind1=" " ind2=" ">
+            <marc:subfield code="a">Texts in French and Innu-Aimun.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
 </marc:collection>
