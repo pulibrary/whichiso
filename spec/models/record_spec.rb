@@ -15,4 +15,8 @@ RSpec.describe Record, type: :model do
   it "can extract a 546 field" do
     expect(record.field546).to eq "In Persian and English. Egyptian Arabic notes and Jurchen definitions."
   end
+
+  xit "can extract the language names from 546a" do
+    expect(record.language_names).to contain_exactly("Persian", "English", "Egyptian Arabic", "Jurchen")
+  end
 end
