@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?><marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:record><marc:leader>00345cam a2200097Ma 4500</marc:leader>
-<marc:controlfield tag="005">20211026173222.0</marc:controlfield>
-<marc:controlfield tag="008">080916s2008    fr a     bc   000 0 fre d</marc:controlfield><marc:controlfield tag="001">99125407272306421</marc:controlfield><marc:datafield tag="041" ind1="0" ind2=" "><marc:subfield code="a">fre</marc:subfield><marc:subfield code="a">eng</marc:subfield></marc:datafield><marc:datafield tag="245" ind1="1" ind2="0"><marc:subfield code="a">Dessins et tableaux du 16ème au 20ème siècle =</marc:subfield><marc:subfield code="b">Drawings and paintings from 16th to 20th.</marc:subfield></marc:datafield><marc:datafield tag="546" ind1=" " ind2=" "><marc:subfield code="a">Text in French and English with Ramoaaina commentary.</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>00345cam a2200097Ma 4500</marc:leader>
+        <marc:controlfield tag="005">20211026173222.0</marc:controlfield>
+        <marc:controlfield tag="008">080916s2008    fr a     bc   000 0 fre d</marc:controlfield>
+        <marc:controlfield tag="001">99125407272306421</marc:controlfield>
+        <marc:datafield tag="041" ind1="0" ind2=" ">
+            <marc:subfield code="a">fre</marc:subfield>
+            <marc:subfield code="a">eng</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Dessins et tableaux du 16ème au 20ème siècle =</marc:subfield>
+            <marc:subfield code="b">Drawings and paintings from 16th to 20th.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="546" ind1=" " ind2=" ">
+            <marc:subfield code="a">Text in French and English with Ramoaaina commentary.</marc:subfield>
+        </marc:datafield>
+    </marc:record>
 </marc:collection>
