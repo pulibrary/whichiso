@@ -11,4 +11,10 @@ RSpec.describe LanguageCode, type: :model do
     expect(language_code.language_name).to eq "Portuguese"
     expect(language_code.code).to eq "por"
   end
+
+  context 'when loading all of the language codes' do
+    it "knows where the language codes are" do
+      expect(LanguageCode.config_file).to eq Rails.root.join("config","language_codes","iso-639-3.tab").to_s
+    end
+  end
 end
