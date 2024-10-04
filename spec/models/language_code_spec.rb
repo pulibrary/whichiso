@@ -16,5 +16,11 @@ RSpec.describe LanguageCode, type: :model do
     it "knows where the language codes are" do
       expect(LanguageCode.config_file).to eq Rails.root.join("config","language_codes","iso-639-3.tab").to_s
     end
+
+    it "loads all of the language codes" do
+      expect(LanguageCode.count).to eq 0
+      LanguageCode.load_languages 
+      expect(LanguageCode.count).to eq 7920
+    end
   end
 end
