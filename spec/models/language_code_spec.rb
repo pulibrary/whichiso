@@ -22,5 +22,12 @@ RSpec.describe LanguageCode, type: :model do
       LanguageCode.load_languages 
       expect(LanguageCode.count).to eq 7920
     end
+
+    it "loads the language codes so it does not duplicate them when run twice" do
+      expect(LanguageCode.count).to eq 0
+      LanguageCode.load_languages
+      LanguageCode.load_languages
+      expect(LanguageCode.count).to eq 7920
+    end
   end
 end
