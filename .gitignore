@@ -10,6 +10,9 @@
 # Ignore byebug history
 .byebug_history
 
+# Ignore macOS specific files
+.DS_Store
+
 # Ignore all environment files (except templates).
 /.env*
 !/.env*.erb
